@@ -48,6 +48,7 @@ h2 {
     width: 95vw;
     min-width: 295px;
     min-height: 600px;
+    max-width: 1350px;
     display: grid;
     grid-template-rows: 20% 50% 10% 15% 5%;
 }
