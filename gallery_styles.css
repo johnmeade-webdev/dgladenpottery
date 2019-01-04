@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* .page_wrapper {
+    background: url(https://drive.google.com/uc?id=1MCUA0vMWGC_EC4L61vqbQIaff3rrQFzq);
+    background-size: cover;
+    background-position: center;
+} */
+
+
+
+/*******************/
+/***HEADER STYLES***/
+/*******************/
+
+header {
+    /* border: 2px solid white; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 110px;
+}
+
+h1 {
+    display: inline-block;
+    margin: 1rem auto;
+    text-align: center;
+    font-family: 'Work Sans';
+    font-size: 4rem;
+    font-weight: 100;
+    color: white;
+    /* border: 2px solid white; */
+}
+
+.left ul li, .right ul li {
+    display: inline-block;
+    color: white;
+    font-family: 'Work Sans';
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 110px;
+    margin: 0 1rem;
+    text-decoration: overline;
+    text-decoration-color: rgb(56, 95, 139);
+    /* border: 2px solid white; */
+}
+
+.left {
+    float: left;
+    text-align: right;
+}
+
+.right {
+    float: right;
+    text-align: left;
+}
+
+
+/*************************/
+/***DISPLAY CASE STYLES***/
+/*************************/
+
+.display_case {
+    display: flex;
+    justify-content: center;
+    /* background: url(https://drive.google.com/uc?id=1MCUA0vMWGC_EC4L61vqbQIaff3rrQFzq);
+    background-size: cover;
+    background-position: center;
+    height: 400px; */
+}
+
+.display_case img {
+    margin: 2rem 1rem;
+    border-radius: 5px;
+}
+
+/*************************/
+/***SUB-HEADING STYLES***/
+/*************************/
+
+/* .sub-heading {
+    background: url(Images/unfinished_mugs.jpg);
+    background-size: cover;
+    background-position: center;
+} */
+
+h2 {
+    margin: 1rem auto;
+    text-align: center;
+    font-family: 'Work Sans';
+    font-size: 2rem;
+    font-weight: 100;
+    color: white;
+}
+
+/*************************/
+/***FOOTER STYLES***/
+/*************************/
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+footer div i {
+    font-size: 1.5rem;
+    color: rgb(106, 116, 113);
+    margin: 2rem 1rem;
+}
