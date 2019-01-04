@@ -153,6 +153,11 @@ h6 {
         display: grid;
         grid-template-rows: 25% 35% 20% 10% 10%;
     }
+
+    nav {
+        display: grid;
+        grid-template-columns: 30% 40% 30%;
+    }
     
     li {
         margin: .5rem;
@@ -164,22 +169,6 @@ h6 {
 }
 
 @media (max-width: 650px) {
-    .page-wrapper {
-        display: grid;
-        grid-template-rows: 25% 35% 20% 10% 10%;
-    }
-    
-    h1 {
-        font-size: 2rem;
-    }
-    
-    nav {
-        display: grid;
-        grid-template-columns: 30% 40% 30%;
-    }
-}
-
-@media (max-width: 420px) {
 
     .page-wrapper {
         display: grid;
@@ -214,4 +203,20 @@ h6 {
     li {
         margin: .5rem;
     }
+}
+
+@media (max-width: 400px) {
+    
+    li {
+        margin: 0;
+    }
+
+    a {
+        font-size: .75rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
 }
